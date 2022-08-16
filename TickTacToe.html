@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe : Game</title>
+    <link rel="stylesheet" href="TickTacToe.css">
+</head>
+<body>
+    <div id="main">
+        <div id="msg">
+            <h3>Game start by just Tap on Box</h3>
+            <h3>First player start as <b>Player X</b></h3>
+            <h3>And</h3>
+            <h3>Second player as <b>Player O</b></h3>
+        </div>
+        <h1 id="out"></h1>
+        <div class="buttonArea">
+            <div class="row">
+                <input type="text" id="id1" onclick="put('id1')" value="">
+                <input type="text" id="id2" onclick="put('id2')" value="">
+                <input type="text" id="id3" onclick="put('id3')" value="">
+            </div>
+            <div class="row">
+                <input type="text" id="id4" onclick="put('id4')" value="">
+                <input type="text" id="id5" onclick="put('id5')" value="">
+                <input type="text" id="id6" onclick="put('id6')" value="">
+            </div>
+            <div class="row">
+                <input type="text" id="id7" onclick="put('id7')" value="">
+                <input type="text" id="id8" onclick="put('id8')" value="">
+                <input type="text" id="id9" onclick="put('id9')" value="">
+            </div>
+        </div>
+        <div>
+            <button onclick="reset()"><b>RESET</b></button><br><br><br>
+        </div>
+    </div>
+    
+    
+    <script src="TickTacToe.js"></script>
+</body>
+</html>

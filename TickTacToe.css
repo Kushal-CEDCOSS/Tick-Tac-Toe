@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+#msg{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-variant: small-caps;
+    font-size: 1.5vw;
+}
+
+.buttonArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 44vh;
+    padding: 2vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(40, 192, 179), rgb(58, 219, 152), rgb(94, 252, 239));
+    box-shadow: 2px 8px 10px black;
+    border: 2px solid black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 12vh;
+}
+
+.row input{
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px grey;
+    color: white;
+}
+
+#out{
+    font-size: 2vw;
+    font-variant: small-caps;
+    color: dodgerblue;
+}
+
+button{
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    width: 8vw;
+    height: 4vw;
+    border: none;
+    background-color: dodgerblue;
+    margin-left: 44%;
+    font-size: 1.5vw;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.125, 1.125);
+    transition: all 0.5s ease-in-out;
+}
